@@ -1,0 +1,169 @@
+@font-face {
+	font-family: "open sans";
+	src: url("OpenSans-Light.ttf")
+}
+ p {
+	font-family: "open sans";
+	color: #707070;
+}
+#heading {
+	font-size: 30px;
+	margin-left: 20px;
+	line-height: 0px;
+}
+#under_text{
+	margin-left: 70px;
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+#menu {
+	height: 35px;
+	width: 100%;
+
+}
+#menu ul{
+	float: right;
+	display: inline-block;
+}
+#menu ul li{
+	height: 40px;
+
+
+}
+#menu ul li a{
+	margin-top: 10px
+}
+#button_home{
+	display: inline-flex;
+
+	color: #707070;
+}
+#button_category{
+	display: inline-flex;
+
+	color: #707070;
+}
+#buttom_login{
+	display: inline-flex;
+	color: #707070;
+}
+#button_register{
+	display: inline-flex;
+	color: #707070;
+}
+#button_logout {
+	display:inline-flex;
+	color: #707070;
+}
+.menu_text{
+	font-size: 22px;
+}
+a:link{
+	font-family: "open sans";
+	color: #707070;
+	text-decoration: none;
+}
+a:visited{
+	color: #707070;
+	text-decoration: none;
+}
+ul{
+    padding: 0;
+    list-style: none;
+
+}
+ul li{
+    float: left;
+    width: 100px;
+    text-align: center;
+    line-height: 21px;
+}
+#menu ul li:hover{
+	background-color: #CFD6FF;
+	text-decoration: underline;
+}
+ul li a{
+    display: block;
+}
+ul li a:hover{
+    text-decoration: underline;
+
+
+}
+
+#logo{
+	display: inline-flex;
+
+}
+#logo_img{
+	border-radius: 7px;
+	margin-left: 50px;
+	opacity: 0.9;
+}
+
+#button_about{
+	display: inline-flex;
+
+	color: #707070;
+}
+#cat_div{
+	/*height: 435px;*/
+	width: 150px;
+	position: absolute;
+	position: fixed;
+	left: 1170px;
+	top: 100px;
+
+}
+
+#cat_div ul {
+	width: 150px;
+}
+#cat_div ul li{
+	display: inline-block;
+	width: 150px;
+	height: 80px;
+}
+#cat_div ul li a{
+	font-family: "open sans";
+}
+#cat_div ul li a:hover{
+	text-decoration: underline;
+}
+#cat_div ul li img{
+	height: 35px;
+}
+#foot{
+	font-size: 15px;
+	font-family: "open sans";
+	text-align: center;
+	color: #000000;
+}
+input.button_submit{
+	font-family: "open sans";
+	height: 30px;
+	width: 100px;
+	position: absolute;
+	left: 35px;
+}
+.form {
+	position: absolute;
+	top: 130px;
+	left: 580px;
+}
+.input {
+	font-family: "open sans";
+}
+.reg_text {
+	font-size: 20px;
+}
+.signup_head{
+	font-size: 40px;
+	text-align: center;
+}
+.errors_text{
+	font-family: "open sans";
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 20px;
+}
